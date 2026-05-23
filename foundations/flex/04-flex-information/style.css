@@ -1,3 +1,43 @@
+/* body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info{
+  display:flex;
+  justify-content: space-around;
+}
+.div-i{
+  display:flex;// no need to do this since div itself is a block element its size can be given by max width
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  align-content:center;
+}
+/* do not edit this footer 
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+} */
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -23,4 +63,24 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* SOLUTION */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.div-i {
+  max-width: 200px;
 }
